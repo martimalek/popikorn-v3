@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ProgTest.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\ProgTestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTest.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTestCharacter.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTestGameMode.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTest.init.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTestCharacter.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\ProgTestGameMode.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\Default.rc2.res"
+/OUT:"D:\dev\Unreal\popikorn-v3\prog-test\ProgTest\Intermediate\Build\Win64\UnrealEditor\Development\ProgTest\UnrealEditor-ProgTest.lib"

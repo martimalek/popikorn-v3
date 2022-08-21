@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\dev\\unreal\\popikorn-v3\\prog-test\\progtest\\intermediate\\build\\win64\\unrealeditor\\inc\\progtest\\progtestgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\dev\\unreal\\popikorn-v3\\prog-test\\progtest\\intermediate\\build\\win64\\progtesteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\dev\\unreal\\popikorn-v3\\prog-test\\progtest\\intermediate\\build\\win64\\unrealeditor\\development\\progtest\\definitions.progtest.h",
+            "d:\\dev\\unreal\\popikorn-v3\\prog-test\\progtest\\source\\progtest\\progtestgamemode.h",
+            "d:\\programs\\ue\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\programs\\ue\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\programs\\ue\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\programs\\ue\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\dev\\unreal\\popikorn-v3\\prog-test\\progtest\\intermediate\\build\\win64\\unrealeditor\\inc\\progtest\\progtestgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
