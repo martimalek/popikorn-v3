@@ -714,3 +714,1145 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.28-09.59.29:094][  0]LogAssetRegistry: Asset discovery search completed in 47.7941 seconds
 [2022.08.28-09.59.29:105][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
 [2022.08.28-09.59.29:323][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.08.28-10.00.40:222][213]LogDerivedDataCache: C:/Users/marti/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.093 and deleted 0 file(s) with total size 0 MiB.
+[2022.08.28-10.10.30:586][975]LogViewport: Scene viewport resized to 1520x565, mode Windowed.
+[2022.08.28-10.10.31:736][975]LogViewport: Scene viewport resized to 3056x1269, mode Windowed.
+[2022.08.28-10.10.32:782][979]LogViewport: Scene viewport resized to 3056x1230, mode Windowed.
+[2022.08.28-10.10.47:816][124]LogSlate: Window 'Message Log' being destroyed
+[2022.08.28-10.10.47:821][124]LogSlate: Window 'Message Log' being destroyed
+[2022.08.28-10.10.55:060][467]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.28-10.10.55:167][467]LogWorldPartition: Display: GenerateStreaming started...
+[2022.08.28-10.10.55:173][467]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.08.28-10.10.55:173][467]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.08.28-10.10.55:173][467]LogWorldPartition: Display: ValidateSingleActorReferer took 13 us
+[2022.08.28-10.10.55:173][467]LogWorldPartition: Display: GetPartitionedActors took 416 us
+[2022.08.28-10.10.55:945][467]LogWorldPartition: Display: GenerateStreaming took 778 ms
+[2022.08.28-10.10.56:370][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-10.10.56:664][467]PIE: New page: PIE session: Pruebas (28 ago. 2022 14:10:56)
+[2022.08.28-10.10.56:682][467]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.08.28-10.10.56:702][467]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.08.28-10.10.56:766][467]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.10.56:931][467]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.08.28-10.10.56:941][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.174553s)
+[2022.08.28-10.10.56:941][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pruebas.Pruebas to /Game/UEDPIE_0_Pruebas.Pruebas (0.174913s)
+[2022.08.28-10.10.57:047][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.28-10.10.57:083][467]LogAIModule: Creating AISystem for world Pruebas
+[2022.08.28-10.10.57:246][467]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.08.28-10.10.57:247][467]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.08.28-10.10.57:251][467]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2022.08.28-10.10.57:251][467]LogPlayLevel: PIE: World Init took: (0.309433s)
+[2022.08.28-10.10.57:346][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.08.28-10.10.57:538][467]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.28-10.10.57:538][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-10.10.57:538][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-10.10.57:539][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.28-10.10.57:539][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.28-10.10.57:539][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.28-10.10.57:540][467]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.28-10.10.57:585][467]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.08.28-10.10.57:585][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-10.10.57:585][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-10.10.57:585][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-10.10.57:586][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.08.28-10.10.57:586][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.08.28-10.10.57:587][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.08.28-10.10.57:587][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.08.28-10.10.57:587][467]LogInit: FAudioDevice initialized.
+[2022.08.28-10.10.57:587][467]LogAudio: Display: Audio Device (ID: 2) registered with world 'Pruebas'.
+[2022.08.28-10.10.57:890][467]LogLoad: Game class is 'MainGameMode_C'
+[2022.08.28-10.10.57:973][467]LogWorld: Bringing World /Game/UEDPIE_0_Pruebas.Pruebas up for play (max tick rate 0) at 2022.08.28-12.10.57
+[2022.08.28-10.10.58:022][467]LogWorld: Bringing up level for play took: 0.050262
+[2022.08.28-10.10.58:119][467]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2022.08.28-10.10.59:173][467]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-25200.103 Y=-5448.987 Z=1211.123
+[2022.08.28-10.10.59:173][467]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(8), CellsToLoad(0), CellsToUnload(0)
+[2022.08.28-10.10.59:173][467]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-25200.103 Y=-5448.987 Z=1211.123,P=0.000000 Y=29.743401 R=-0.000000
+[2022.08.28-10.10.59:432][467]LogStreaming: Display: FlushAsyncLoading: 126 QueuedPackages, 0 AsyncPackages
+[2022.08.28-10.10.59:643][467]LogStreaming: Error: Couldn't find file for package /Game/FbxScene_Casa_con_to requested by async loading code. NameToLoad: /Game/FbxScene_Casa_con_to
+[2022.08.28-10.10.59:644][467]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/2/K5/L4W8IY8FNJTR1A4MHSRWKH_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.10.59:644][467]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/7/L6/RXLS0GWSDUNT4XMAESQ0PZ_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.10.59:644][467]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/M7/S2PZ1S2ZGVUW3ATIIT60HS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_12 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_13 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/3/B3/QU6H3L4H1HLRL7N0X80RRW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/XP/2AFKK7KCEBMDFM8WJK3BEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/06/GFGQK21TJ362YASHTKH1DD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/JB/CGVZCFJGKXMYJELTGDG0VH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/7/68/B7694D3KAKUI4H9IKY6TQ9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/Q0/GE9XVI8EKWP44Y4NTJSMG8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/CO/4541X1VJ7114AQOMDSFXD9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/LR/EV9PTC1MO8AFZ8G9RH0T52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/C/YF/LVH26QFZQZFI452T3HCTQB.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.10.59:806][467]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:851][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.10.59:852][467]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.11.00:208][467]PIE: Server logged in
+[2022.08.28-10.11.00:259][467]PIE: Play in editor total start time 5,182 seconds.
+[2022.08.28-10.12.16:797][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.12.16:797][562]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.12.16:851][562]LogWorld: UWorld::CleanupWorld for Pruebas, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-10.12.16:851][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.12.16:912][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-10.12.16:971][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.12.16:977][562]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.28-10.12.16:977][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.08.28-10.12.16:979][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.08.28-10.12.16:982][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.12.17:044][562]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.08.28-10.12.17:080][563]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.08.28-10.15.05:364][444]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.28-10.15.05:373][444]LogWorldPartition: Display: GenerateStreaming started...
+[2022.08.28-10.15.05:373][444]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.08.28-10.15.05:373][444]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.08.28-10.15.05:373][444]LogWorldPartition: Display: ValidateSingleActorReferer took 14 us
+[2022.08.28-10.15.05:373][444]LogWorldPartition: Display: GetPartitionedActors took 80 us
+[2022.08.28-10.15.05:442][444]LogWorldPartition: Display: GenerateStreaming took 68 ms
+[2022.08.28-10.15.05:442][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-10.15.05:442][444]PIE: New page: PIE session: Pruebas (28 ago. 2022 14:15:05)
+[2022.08.28-10.15.05:443][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.15.05:464][444]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.08.28-10.15.05:464][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021178s)
+[2022.08.28-10.15.05:464][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pruebas.Pruebas to /Game/UEDPIE_0_Pruebas.Pruebas (0.021232s)
+[2022.08.28-10.15.05:464][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.28-10.15.05:464][444]LogAIModule: Creating AISystem for world Pruebas
+[2022.08.28-10.15.05:465][444]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.08.28-10.15.05:465][444]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.08.28-10.15.05:471][444]LogWorldPartition: Display: WorldPartition initialize took 5 ms
+[2022.08.28-10.15.05:471][444]LogPlayLevel: PIE: World Init took: (0.007149s)
+[2022.08.28-10.15.05:479][444]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.08.28-10.15.05:480][444]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.28-10.15.05:480][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-10.15.05:480][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-10.15.05:481][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.28-10.15.05:481][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.28-10.15.05:481][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.28-10.15.05:483][444]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.28-10.15.05:536][444]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.08.28-10.15.05:537][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-10.15.05:537][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-10.15.05:537][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-10.15.05:538][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.08.28-10.15.05:538][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.08.28-10.15.05:540][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.08.28-10.15.05:540][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.08.28-10.15.05:540][444]LogInit: FAudioDevice initialized.
+[2022.08.28-10.15.05:540][444]LogAudio: Display: Audio Device (ID: 3) registered with world 'Pruebas'.
+[2022.08.28-10.15.05:555][444]LogLoad: Game class is 'MainGameMode_C'
+[2022.08.28-10.15.05:557][444]LogWorld: Bringing World /Game/UEDPIE_0_Pruebas.Pruebas up for play (max tick rate 0) at 2022.08.28-12.15.05
+[2022.08.28-10.15.05:557][444]LogWorld: Bringing up level for play took: 0.002392
+[2022.08.28-10.15.05:560][444]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.08.28-10.15.05:561][444]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-25727.956 Y=-3623.876 Z=1555.147
+[2022.08.28-10.15.05:561][444]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(8), CellsToLoad(0), CellsToUnload(0)
+[2022.08.28-10.15.05:561][444]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-25727.956 Y=-3623.876 Z=1555.147,P=-0.000000 Y=-90.510744 R=0.000000
+[2022.08.28-10.15.05:563][444]LogStreaming: Display: FlushAsyncLoading: 126 QueuedPackages, 0 AsyncPackages
+[2022.08.28-10.15.05:673][444]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/2/K5/L4W8IY8FNJTR1A4MHSRWKH_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.15.05:673][444]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/7/L6/RXLS0GWSDUNT4XMAESQ0PZ_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.15.05:673][444]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/C/YF/LVH26QFZQZFI452T3HCTQB.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/LR/EV9PTC1MO8AFZ8G9RH0T52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/CO/4541X1VJ7114AQOMDSFXD9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/Q0/GE9XVI8EKWP44Y4NTJSMG8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/7/68/B7694D3KAKUI4H9IKY6TQ9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/JB/CGVZCFJGKXMYJELTGDG0VH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/06/GFGQK21TJ362YASHTKH1DD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/XP/2AFKK7KCEBMDFM8WJK3BEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/3/B3/QU6H3L4H1HLRL7N0X80RRW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_13 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_12 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:747][444]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/M7/S2PZ1S2ZGVUW3ATIIT60HS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:775][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:776][444]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.15.05:782][444]PIE: Server logged in
+[2022.08.28-10.15.05:783][444]PIE: Play in editor total start time 0,412 seconds.
+[2022.08.28-10.15.17:014][103]LogWorldPartition: New Streaming Source: SIE -> Position: X=-25810.986 Y=-4581.002 Z=1080.372
+[2022.08.28-10.15.33:895][ 12]LogViewport: Scene viewport resized to 1035x582, mode Windowed.
+[2022.08.28-10.16.05:034][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.16.05:034][563]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.16.05:036][563]LogWorld: UWorld::CleanupWorld for Pruebas, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-10.16.05:036][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.16.05:044][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-10.16.05:047][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.16.05:054][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.16.05:054][563]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.08.28-10.16.05:056][563]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.08.28-10.16.05:068][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.08.28-10.16.05:113][564]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.08.28-10.16.07:249][669]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.28-10.16.07:259][669]LogWorldPartition: Display: GenerateStreaming started...
+[2022.08.28-10.16.07:259][669]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.08.28-10.16.07:259][669]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.08.28-10.16.07:259][669]LogWorldPartition: Display: ValidateSingleActorReferer took 13 us
+[2022.08.28-10.16.07:259][669]LogWorldPartition: Display: GetPartitionedActors took 80 us
+[2022.08.28-10.16.07:347][669]LogWorldPartition: Display: GenerateStreaming took 87 ms
+[2022.08.28-10.16.07:348][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.28-10.16.07:348][669]PIE: New page: PIE session: Pruebas (28 ago. 2022 14:16:07)
+[2022.08.28-10.16.07:348][669]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.16.07:369][669]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.08.28-10.16.07:370][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021415s)
+[2022.08.28-10.16.07:370][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pruebas.Pruebas to /Game/UEDPIE_0_Pruebas.Pruebas (0.021524s)
+[2022.08.28-10.16.07:370][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.28-10.16.07:370][669]LogAIModule: Creating AISystem for world Pruebas
+[2022.08.28-10.16.07:371][669]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.08.28-10.16.07:371][669]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.08.28-10.16.07:376][669]LogWorldPartition: Display: WorldPartition initialize took 5 ms
+[2022.08.28-10.16.07:376][669]LogPlayLevel: PIE: World Init took: (0.006390s)
+[2022.08.28-10.16.07:384][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.08.28-10.16.07:385][669]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.28-10.16.07:385][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.28-10.16.07:385][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.28-10.16.07:386][669]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.28-10.16.07:386][669]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.28-10.16.07:386][669]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.28-10.16.07:388][669]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.28-10.16.07:446][669]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek High Definition Audio)
+[2022.08.28-10.16.07:447][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.28-10.16.07:447][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.28-10.16.07:447][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.28-10.16.07:448][669]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.08.28-10.16.07:448][669]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.08.28-10.16.07:450][669]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.08.28-10.16.07:450][669]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.08.28-10.16.07:450][669]LogInit: FAudioDevice initialized.
+[2022.08.28-10.16.07:450][669]LogAudio: Display: Audio Device (ID: 4) registered with world 'Pruebas'.
+[2022.08.28-10.16.07:466][669]LogLoad: Game class is 'MainGameMode_C'
+[2022.08.28-10.16.07:469][669]LogWorld: Bringing World /Game/UEDPIE_0_Pruebas.Pruebas up for play (max tick rate 0) at 2022.08.28-12.16.07
+[2022.08.28-10.16.07:469][669]LogWorld: Bringing up level for play took: 0.002246
+[2022.08.28-10.16.07:471][669]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2022.08.28-10.16.07:473][669]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=-25810.986 Y=-4581.002 Z=1080.372
+[2022.08.28-10.16.07:473][669]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(8), CellsToLoad(0), CellsToUnload(0)
+[2022.08.28-10.16.07:473][669]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-25810.986 Y=-4581.002 Z=1080.372,P=-0.000000 Y=-54.169525 R=0.000000
+[2022.08.28-10.16.07:476][669]LogStreaming: Display: FlushAsyncLoading: 126 QueuedPackages, 0 AsyncPackages
+[2022.08.28-10.16.07:587][669]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/2/K5/L4W8IY8FNJTR1A4MHSRWKH_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.16.07:587][669]LogEngine: Warning: Failed to load /Game/__ExternalActors__/Pruebas/7/L6/RXLS0GWSDUNT4XMAESQ0PZ_UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.16.07:587][669]LogLevelStreaming: Warning: UWorldPartitionLevelStreamingDynamic::IssueLoadRequests failed /Memory/UEDPIE_0_Pruebas_MainGrid_L0_X-1_Y-1_DL0
+[2022.08.28-10.16.07:662][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/E/YD/2XNE1JP31Z2X20Y6XO70N7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/C/YF/LVH26QFZQZFI452T3HCTQB.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/LR/EV9PTC1MO8AFZ8G9RH0T52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/CO/4541X1VJ7114AQOMDSFXD9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/B/5U/NVVYOG9NYQJB2GILFV67R7.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/Q0/GE9XVI8EKWP44Y4NTJSMG8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/9/0G/3DF7MROIM7I6SK5VY8EB30.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/8/FL/SIS713NNNOO9F8I3NHF7LV.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/7/68/B7694D3KAKUI4H9IKY6TQ9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/X2/JO63AX1NFKNN88UZY0L4G1.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/U3/C16S3XZ9OEZNDHH0SPHAFA.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/JB/CGVZCFJGKXMYJELTGDG0VH.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/6/9W/495K472LIQFRN419XIPLVU.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/74/ESF9POQOIB834WOTY0ARZJ.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/5/06/GFGQK21TJ362YASHTKH1DD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/Z1/0ZO4DRGPA1O58ZWDK1UL5Q.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/4/XP/2AFKK7KCEBMDFM8WJK3BEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/3/B3/QU6H3L4H1HLRL7N0X80RRW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_9 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_8 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_13 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_12 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_11 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/2/O5/W9WHXTMUHZCW1TG7LHCF0Q.StaticMesh_HLOD0_Instancing_10 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/P1/4P2OCJXER21LLCCPNFI8JD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:663][669]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Pruebas/0/M7/S2PZ1S2ZGVUW3ATIIT60HS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:696][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:697][669]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.08.28-10.16.07:706][669]PIE: Server logged in
+[2022.08.28-10.16.07:706][669]PIE: Play in editor total start time 0,45 seconds.
+[2022.08.28-10.18.13:690][214]LogWorldPartition: New Streaming Source: SIE -> Position: X=-25200.748 Y=-7081.273 Z=1003.835
+[2022.08.28-10.18.17:963][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.18.17:963][384]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pruebas
+[2022.08.28-10.18.17:966][384]LogWorld: UWorld::CleanupWorld for Pruebas, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-10.18.17:966][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.18.17:974][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.28-10.18.17:977][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-10.18.17:984][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-10.18.17:985][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.08.28-10.18.17:986][384]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.08.28-10.18.17:999][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.08.28-10.18.18:114][386]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.08.28-10.18.32:472][ 90]Cmd: SELECT NONE
+[2022.08.28-10.18.34:512][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.08.28-10.18.34:540][183]LogStall: Shutdown...
+[2022.08.28-10.18.34:544][183]LogStall: Shutdown complete.
+[2022.08.28-10.18.34:659][183]LogSlate: Window 'Pruebas1 - Unreal Editor' being destroyed
+[2022.08.28-10.18.34:956][184]Cmd: QUIT_EDITOR
+[2022.08.28-10.18.34:956][184]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.08.28-10.18.34:968][184]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.08.28-10.18.34:968][184]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.08.28-10.18.34:968][184]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.08.28-10.18.35:148][184]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.08.28-10.18.35:148][184]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.08.28-10.18.35:148][184]LogAudio: Display: Audio Device unregistered from world 'Pruebas'.
+[2022.08.28-10.18.35:148][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.08.28-10.18.35:150][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.08.28-10.18.35:162][184]LogAudio: Display: Audio Device Manager Shutdown
+[2022.08.28-10.18.35:178][184]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.08.28-10.18.35:178][184]LogExit: Preparing to exit.
+[2022.08.28-10.18.35:187][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.08.28-10.18.36:353][184]LogWorld: UWorld::CleanupWorld for Pruebas, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-10.18.36:361][184]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.08.28-10.18.36:367][184]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.08.28-10.18.36:367][184]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.08.28-10.18.36:369][184]LogExit: Editor shut down
+[2022.08.28-10.18.36:370][184]LogExit: Transaction tracking system shut down
+[2022.08.28-10.18.36:565][184]LogExit: Object subsystem successfully closed.
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: ================================================
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.08.28-10.18.36:571][184]LogShaderCompilers: Display: ================================================
+[2022.08.28-10.18.36:649][184]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.08.28-10.18.36:680][184]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (886)
+[2022.08.28-10.18.36:680][184]LogModuleManager: Shutting down and abandoning module Voice (884)
+[2022.08.28-10.18.36:686][184]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (882)
+[2022.08.28-10.18.36:686][184]LogModuleManager: Shutting down and abandoning module SubobjectEditor (880)
+[2022.08.28-10.18.36:686][184]LogModuleManager: Shutting down and abandoning module SceneOutliner (878)
+[2022.08.28-10.18.36:686][184]LogModuleManager: Shutting down and abandoning module AddContentDialog (876)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WidgetCarousel (875)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module StatusBar (872)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (870)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module DataLayerEditor (868)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module StatsViewer (866)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (864)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module AutomationWorker (862)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (860)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module GooglePADEditor (858)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (856)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (854)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (852)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (850)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (848)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (846)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (844)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (842)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WebMMedia (840)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (838)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (836)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (834)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (832)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module SequenceRecorder (831)
+[2022.08.28-10.18.36:707][184]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (828)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (826)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (824)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (822)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (820)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (818)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (816)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module PlanarCut (814)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module CharacterAI (812)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module TextureAlignMode (810)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module BspMode (808)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module GeometryMode (806)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (804)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module IKRigEditor (802)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (800)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ControlRigEditor (798)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AnimationEditor (797)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module SmartSnapping (794)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module SessionServices (792)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module MeshPaint (790)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (788)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module PlacementMode (787)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module FoliageEdit (784)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module LandscapeEditor (782)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (780)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ActorPickerMode (778)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ViewportSnapping (776)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module EditorWidgets (774)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ViewportInteraction (772)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module ClothPainter (770)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (769)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module LogVisualizer (766)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module IntroTutorials (764)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (762)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (760)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (759)
+[2022.08.28-10.18.36:708][184]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (757)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (754)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (752)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (750)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (748)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module CSVtoSVG (746)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (744)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module EditorConfig (742)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (740)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module EditorFramework (738)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (736)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module TraceInsights (734)
+[2022.08.28-10.18.37:466][184]MemoryProfiler: Shutdown
+[2022.08.28-10.18.37:466][184]NetworkingProfiler: Shutdown
+[2022.08.28-10.18.37:466][184]LoadingProfiler: Shutdown
+[2022.08.28-10.18.37:466][184]TimingProfiler: Shutdown
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module TraceServices (733)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (730)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (729)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module InputBindingEditor (726)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module MergeActors (724)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (722)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module LocalizationService (721)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module HardwareTargeting (718)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (716)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module UndoHistory (714)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module XmlParser (712)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module Blutility (710)
+[2022.08.28-10.18.37:466][184]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (708)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (707)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (704)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (703)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module SettingsEditor (700)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module ProjectLauncher (698)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module SessionFrontend (696)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module ProfilerClient (694)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module DeviceManager (692)
+[2022.08.28-10.18.37:467][184]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (691)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module AutomationController (688)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module AutomationWindow (686)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module Layers (684)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (682)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module DetailCustomizations (680)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module PackagesDialog (678)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (676)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module Persona (674)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (673)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module AnimGraph (671)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module Kismet (668)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module KismetWidgets (667)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module GraphEditor (664)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module StructViewer (662)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module ClassViewer (660)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module NaniteTools (658)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (656)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module SourceControlWindows (654)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module OutputLog (652)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module Documentation (650)
+[2022.08.28-10.18.37:478][184]LogModuleManager: Shutting down and abandoning module LiveCoding (648)
+[2022.08.28-10.18.37:489][184]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (646)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module MovieScene (644)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (642)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module LauncherPlatform (640)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AnalyticsET (638)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module PortalServices (636)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module PortalRpc (634)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module MessagingRpc (632)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (630)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AudioMixer (629)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AudioMixerCore (628)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AIModule (624)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module GameplayDebugger (623)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module AITestSuite (621)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module NavigationSystem (619)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (616)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (614)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module TypedElementFramework (612)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.08.28-10.18.37:490][184]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.08.28-10.18.37:593][184]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.08.28-10.18.37:593][184]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.08.28-10.18.37:593][184]LogModuleManager: Shutting down and abandoning module MegascansPlugin (602)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module Bridge (600)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (598)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (596)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangePipelines (594)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeExport (592)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeMessages (590)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeImport (588)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeNodes (586)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (584)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (582)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module InterchangeEditor (580)
+[2022.08.28-10.18.37:607][184]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (578)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (576)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (574)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module CollectionManager (573)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module SynthesisEditor (570)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module Synthesis (568)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ResonanceAudio (566)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (564)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (562)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (560)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (558)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ModelingOperators (556)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (554)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ModelingComponents (552)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (550)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module MeshModelingTools (548)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (546)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GooglePAD (544)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module DynamicMesh (542)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (540)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (538)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (536)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (534)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (532)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module CableComponent (530)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AudioCapture (528)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (527)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AssetTags (524)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (522)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (520)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AppleImageUtils (518)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AndroidPermission (516)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (514)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (512)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module TemplateSequence (510)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (508)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module SequencerScripting (506)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module MediaCompositing (502)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ImgMedia (500)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AlembicImporter (498)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module AlembicLibrary (497)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryCache (496)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (495)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (490)
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (488)
+[2022.08.28-10.18.37:608][184]LogOpenImageDenoise: OIDN shutting down
+[2022.08.28-10.18.37:608][184]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (486)
+[2022.08.28-10.18.37:609][184]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (484)
+[2022.08.28-10.18.37:609][184]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (482)
+[2022.08.28-10.18.37:609][184]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (480)
+[2022.08.28-10.18.37:609][184]LogModuleManager: Shutting down and abandoning module MeshLODToolset (478)
+[2022.08.28-10.18.37:632][184]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (476)
+[2022.08.28-10.18.37:643][184]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (474)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (472)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (470)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (469)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (466)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module FieldSystemEditor (464)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (462)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module ChaosNiagara (460)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (458)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module FractureEditor (456)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module BackChannel (454)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (452)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module AutomationUtils (450)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (448)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (446)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (444)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (442)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module StylusInput (440)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (438)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module PluginBrowser (436)
+[2022.08.28-10.18.37:644][184]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (434)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (432)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (430)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module EditorDebugTools (428)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (426)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module CurveEditorTools (424)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (422)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module CryptoKeys (420)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (418)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module UObjectPlugin (416)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (414)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module UnrealInsightsInterface (412)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (410)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (408)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module PluginUtils (406)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (404)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module GitSourceControl (402)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (400)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (398)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (396)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module ControlRigSpline (394)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (392)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (390)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (388)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (386)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module Paper2DEditor (384)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (382)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (380)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module SoundFields (378)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module SignificanceManager (376)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (374)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (372)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (370)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (367)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (364)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module ActorSequence (362)
+[2022.08.28-10.18.37:646][184]LogModuleManager: Shutting down and abandoning module UdpMessaging (360)
+[2022.08.28-10.18.37:747][184]LogModuleManager: Shutting down and abandoning module TcpMessaging (358)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (356)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (354)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module SignalProcessing (351)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module NiagaraCore (346)
+[2022.08.28-10.18.37:848][184]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (344)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module PBIK (342)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module FullBodyIK (340)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (338)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (336)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module FacialAnimation (334)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module DataValidation (332)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (330)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (328)
+[2022.08.28-10.18.37:852][184]LogModuleManager: Shutting down and abandoning module LevelEditor (327)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (326)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (324)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (322)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module MainFrame (320)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module HotReload (319)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module ContentBrowser (315)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module ToolMenus (314)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module ContentBrowserData (312)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module TreeMap (309)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (306)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module AnimationSharing (304)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module GameplayCameras (302)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (300)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module IKRig (298)
+[2022.08.28-10.18.37:853][184]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (296)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module ControlRig (294)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module LevelSequence (293)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (290)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module Paper2D (288)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (286)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (284)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module AndroidFileServer (282)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (280)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module PacketHandler (278)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module AnimationDataController (276)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (274)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (272)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module MediaAssets (270)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module Overlay (268)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module OverlayEditor (267)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module VREditor (264)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module StringTableEditor (262)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (260)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (258)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module FunctionalTesting (256)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (254)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (253)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module SlateReflector (244)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module Slate (242)
+[2022.08.28-10.18.37:854][184]LogModuleManager: Shutting down and abandoning module SlateCore (240)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (238)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (236)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module UnrealEd (234)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MRMesh (232)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module Messaging (230)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (228)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (226)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module Networking (224)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module Core (222)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MaterialEditor (220)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MovieSceneTools (218)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module CurveEditor (217)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module Sequencer (215)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module EditorStyle (214)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module KismetCompiler (210)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MeshBuilder (208)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module NaniteBuilder (206)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MeshUtilities (204)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (203)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (202)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (201)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (199)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (197)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (195)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module MaterialBaking (191)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (186)
+[2022.08.28-10.18.37:856][184]LogModuleManager: Shutting down and abandoning module DerivedDataCache (184)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TargetPlatform (182)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (181)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (179)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (175)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (173)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module AudioFormatBink (171)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (169)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (167)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (165)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (163)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (161)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (159)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (157)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (155)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (153)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (151)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormat (149)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (148)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (146)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (140)
+[2022.08.28-10.18.37:858][184]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (138)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module ImageWrapper (137)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module TurnkeySupport (133)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module InputCore (130)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module Settings (128)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (126)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (124)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (123)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module Chaos (120)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module GeometryCore (119)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (116)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (115)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module AVEncoder (114)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module D3D12RHI (110)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (108)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (106)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (104)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module HairStrandsCore (102)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (100)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module ChunkDownloader (98)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (96)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (94)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2022.08.28-10.18.37:859][184]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (90)
+[2022.08.28-10.18.37:860][184]LogModuleManager: Shutting down and abandoning module XMPP (85)
+[2022.08.28-10.18.37:860][184]LogModuleManager: Shutting down and abandoning module WebSockets (84)
+[2022.08.28-10.18.37:869][184]LogModuleManager: Shutting down and abandoning module HTTP (81)
+[2022.08.28-10.18.37:869][184]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.08.28-10.18.37:869][184]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE95D34EF-4D40-20EE-24A9-70A3D7BACEF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.2-20280985%2B%2B%2BUE5%2BRelease-5.0&UserID=af9296194ec101b4cbbfc6b8dbedcf71%7Cc0350c582f3e4614a9314cbb2a283876%7C53c0635d-86a3-4533-9aba-9ab71ca8fc78&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.08.28-10.18.37:869][184]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.08.28-10.18.37:877][184]LogModuleManager: Shutting down and abandoning module SSL (80)
+[2022.08.28-10.18.37:878][184]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2022.08.28-10.18.37:880][184]LogModuleManager: Shutting down and abandoning module Media (75)
+[2022.08.28-10.18.37:880][184]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (72)
+[2022.08.28-10.18.37:880][184]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (70)
+[2022.08.28-10.18.37:880][184]LogModuleManager: Shutting down and abandoning module NiagaraShader (68)
+[2022.08.28-10.18.37:880][184]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module VariantManagerContent (64)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PixWinPlugin (60)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module AISupportModule (58)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (54)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (52)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (50)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PlatformCrypto (48)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (46)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module SourceControl (45)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.08.28-10.18.37:881][184]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.08.28-10.18.37:898][184]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.08.28-10.18.37:954][184]LogD3D12RHI: Display: D3D12 ReleaseResources: 147 items to release
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 3862 x 2122 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 3862 x 2122 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 3862 x 2122 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.37:963][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyCPUTexture", 15114176 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyTexture", 3056 x 1230 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BufferedRT", 3056 x 1230 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:964][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:965][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 184 x 184 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:965][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelVisBuffer", 25165824 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.37:965][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 512 x 251 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:965][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 512 x 251 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:965][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 512 x 251 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.08.28-10.18.37:966][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.TransmittanceLut", 256 x 64 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.MultiScatteredLuminanceLut", 32 x 32 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.DistantSkyLightLut", 1 x 1 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.SkyViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.CameraAPVolume0", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "LightShaft.TemporalAA", 922 x 380 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:967][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageAtlas", 512 x 512 x 256, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldCoverageAtlas", 256 x 256 x 128, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFieldPageTableCombined", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalSDFMipTexture", 56 x 56 x 224, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableStationaryLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GlobalDistanceFieldPageTableMovableLayer", 16 x 16 x 64, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.08.28-10.18.37:970][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:971][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 58 x 24 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:971][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.VoxelLighting", 64 x 256 x 384, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:972][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 921 x 371 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.08.28-10.18.37:973][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 1024 x 1024 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:973][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 1024 x 1024 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:973][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 2048 x 2048 x 1, Mips: 3, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:973][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 6112 x 2464 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.08.28-10.18.37:975][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "OctahedralSolidAngleTexture", 16 x 16 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:975][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 58 x 24 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:975][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.DepthProbeAtlasTexture", 4096 x 4096 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:976][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeAtlasTextureSource", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:976][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FinalRadianceAtlas", 4352 x 4352 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:977][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:977][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 928 x 576 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:977][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 116 x 72 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:978][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.ReconstructDepth", 921 x 371 x 1, Mips: 1, Format: 0x22, Flags: 0x1
+[2022.08.28-10.18.37:978][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 921 x 371 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.08.28-10.18.37:978][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Reconstruct", 921 x 371 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.08.28-10.18.37:978][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.LowFrequencies", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.TracingDepth", 461 x 186 x 1, Mips: 1, Format: 0x22, Flags: 0x5
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricRenderTarget.Tracing", 461 x 186 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 3056 x 1232 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:979][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 116 x 72 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SceneColor", 1844 x 760 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 3056 x 1232 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 3056 x 1232 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1844 x 760 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:980][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:981][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1844 x 760 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:981][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:981][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1844 x 760 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:981][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:981][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.HighFrequencies", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:982][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Translucency", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:982][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.08.28-10.18.37:982][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.DepthHistory", 1844 x 760 x 1, Mips: 1, Format: 0x29, Flags: 0x4
+[2022.08.28-10.18.37:982][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Editor.PrimitivesDepthHistory", 6112 x 2464 x 1, Mips: 1, Format: 0x29, Flags: 0x1
+[2022.08.28-10.18.37:982][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1844 x 760 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.TranslucencyAlpha", 3056 x 1232 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.Output", 3056 x 1232 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.SubpixelInfo", 3056 x 1232 x 1, Mips: 1, Format: 0x39, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "TSR.History.Metadata", 3056 x 1232 x 1, Mips: 1, Format: 0x31, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:983][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.AccumulatedResolveVariance", 1844 x 760 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.NumHistoryFramesAccumulated", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 72 x 24 x 24, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 58 x 24 x 26, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:984][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.DiffuseIndirect", 1844 x 760 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:985][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.TranslucencyVolume.SHLightingNewHistory0", 58 x 24 x 26, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.NumHistoryFramesAccumulated", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.SpecularIndirect", 1844 x 760 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceProbeIndirectionTexture", 192 x 48 x 48, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.RoughSpecularIndirect", 1844 x 760 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeFilteredRadiance", 928 x 576 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.37:986][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "GBufferA", 1844 x 760 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.08.28-10.18.37:987][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeTranslatedWorldPosition", 116 x 72 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.08.28-10.18.37:987][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.ScreenProbeSceneDepth", 116 x 72 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.37:987][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.ScreenProbeGather.FastUpdateMode", 1844 x 760 x 1, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.37:987][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.PhysicalPagePool", 16384 x 4096 x 1, Mips: 1, Format: 0x2A, Flags: 0x4
+[2022.08.28-10.18.38:007][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneAlbedo", 4096 x 4096 x 1, Mips: 1, Format: 0x61, Flags: 0x0
+[2022.08.28-10.18.38:008][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneOpacity", 4096 x 4096 x 1, Mips: 1, Format: 0x50, Flags: 0x0
+[2022.08.28-10.18.38:008][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDepth", 4096 x 4096 x 1, Mips: 1, Format: 0x23, Flags: 0x1
+[2022.08.28-10.18.38:008][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNormal", 4096 x 4096 x 1, Mips: 1, Format: 0x53, Flags: 0x0
+[2022.08.28-10.18.38:008][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneEmissive", 4096 x 4096 x 1, Mips: 1, Format: 0x5F, Flags: 0x0
+[2022.08.28-10.18.38:009][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneDirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:009][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneIndirectLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:009][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneNumFramesAccumulatedAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x3D, Flags: 0x5
+[2022.08.28-10.18.38:009][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.SceneFinalLighting", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget0", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.CapturedSkyRenderTarget", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyLight.ConvolvedSkyRenderTarget1", 128 x 128 x 6, Mips: 8, Format: 0x1A, Flags: 0x5
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapCamera360APLut", 32 x 32 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 32, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.08.28-10.18.38:010][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHBlueAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.38:011][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHGreenAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.38:011][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.ProbeSHRedAtlas", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.38:011][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Radiosity.TraceRadianceAtlas", 4096 x 4096 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkyAtmosphere.RealTimeSkyCapViewLut", 192 x 104 x 1, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Dummy", 1 x 1 x 1, Mips: 1, Format: 0x36, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT0", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Hair.LUT(DualScattering)", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FixupProbeBordersIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:012][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.RadianceCacheHardwareRayTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:013][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShaderDraw.IndirectBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:013][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Nanite.MainAndPostNodesAndClusterBatchesBuffer", 44040192 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:013][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.ReflectionResolveTileIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:013][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Shadow.Virtual.ProcessGPUInstanceInvalidationsIndirectArgs", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.CulledObjectIndirectArguments", 65520 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactTracingIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.Reflections.CompactRayTraceDispatchIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "Lumen.RadianceCache.FilterProbesIndirectArgs", 65532 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.38:014][184]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.08.28-10.18.38:101][184]LogD3D12RHI: ~FD3D12DynamicRHI
+[2022.08.28-10.18.38:101][184]LogExit: Exiting.
+[2022.08.28-10.18.38:113][184]Log file closed, 08/28/22 12:18:38
