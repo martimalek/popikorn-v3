@@ -619,3 +619,98 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.28-09.58.48:831][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
 [2022.08.28-09.58.48:840][  0]LogLiveCoding: Display: Starting LiveCoding
 [2022.08.28-09.58.48:840][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.08.28-09.59.11:829][  0]LogLiveCoding: Display: First instance in process group "UE_Pruebas1_0x3f50974f", spawning console
+[2022.08.28-09.59.11:829][  0]LogLiveCoding: Display: Waiting for server
+[2022.08.28-09.59.11:829][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.08.28-09.59.11:901][  0]LogInit: Transaction tracking system initialized
+[2022.08.28-09.59.11:998][  0]BlueprintLog: New page: Editor Load
+[2022.08.28-09.59.12:194][  0]LocalizationService: Localization service is disabled
+[2022.08.28-09.59.12:249][  0]TimingProfiler: Initialize
+[2022.08.28-09.59.12:249][  0]TimingProfiler: OnSessionChanged
+[2022.08.28-09.59.12:249][  0]LoadingProfiler: Initialize
+[2022.08.28-09.59.12:249][  0]LoadingProfiler: OnSessionChanged
+[2022.08.28-09.59.12:249][  0]NetworkingProfiler: Initialize
+[2022.08.28-09.59.12:249][  0]NetworkingProfiler: OnSessionChanged
+[2022.08.28-09.59.12:249][  0]MemoryProfiler: Initialize
+[2022.08.28-09.59.12:249][  0]MemoryProfiler: OnSessionChanged
+[2022.08.28-09.59.13:382][  0]LogFileCache: Scanning file cache for directory 'D:/dev/Unreal/popikorn-v3/test/Pruebas1/Content/' took 0.02s
+[2022.08.28-09.59.13:382][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.08.28-09.59.13:459][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.08.28-09.59.13:461][  0]SourceControl: Source control is disabled
+[2022.08.28-09.59.13:461][  0]LogUnrealEdMisc: Loading editor; pre map load, took 37.826
+[2022.08.28-09.59.13:461][  0]Cmd: MAP LOAD FILE="../../../../../../dev/Unreal/popikorn-v3/test/Pruebas1/Content/Pruebas.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.08.28-09.59.13:462][  0]LightingResults: New page: Lighting Build
+[2022.08.28-09.59.13:468][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.28-09.59.13:468][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.28-09.59.13:468][  0]MapCheck: New page: Map Check
+[2022.08.28-09.59.13:468][  0]LightingResults: New page: Lighting Build
+[2022.08.28-09.59.13:472][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.28-09.59.13:494][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.08.28-09.59.16:252][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Pruebas'.
+[2022.08.28-09.59.16:258][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.28-09.59.16:258][  0]LogAIModule: Creating AISystem for world Pruebas
+[2022.08.28-09.59.16:259][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.08.28-09.59.16:259][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.08.28-09.59.16:849][  0]LogLinker: Warning: [AssetLog] D:\dev\Unreal\popikorn-v3\test\Pruebas1\Content\__ExternalActors__\Pruebas\2\K5\L4W8IY8FNJTR1A4MHSRWKH.uasset: Failed to load '/Game/FbxScene_Casa_con_to': Can't find file.
+[2022.08.28-09.59.16:874][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/FbxScene_Casa_con_to'
+[2022.08.28-09.59.16:879][  0]LogWorldPartition: Warning: Can't load actor guid `C9CC436C4D2F7738E7CBB584A0E31A6E` ('FbxScene_Casa_con_to_C_UAID_309C23E73FDE811B01_1590889377') from package '/Game/__ExternalActors__/Pruebas/2/K5/L4W8IY8FNJTR1A4MHSRWKH'
+[2022.08.28-09.59.16:880][  0]LogWorldPartition: Warning: Can't load actor guid `C78322CF4B9FF30A69764DA7B55AA054` ('FbxScene_Casa_con_to_C_UAID_309C23E73FDEC21B01_1649050816') from package '/Game/__ExternalActors__/Pruebas/7/L6/RXLS0GWSDUNT4XMAESQ0PZ'
+[2022.08.28-09.59.16:882][  0]LogWorldPartition: Display: WorldPartition initialize took 622 ms
+[2022.08.28-09.59.18:785][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.08.28-09.59.18:801][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.08.28-09.59.18:802][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.08.28-09.59.18:802][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,276ms to complete.
+[2022.08.28-09.59.18:802][  0]LogFileHelpers: Loading map 'Pruebas' took 5.341
+[2022.08.28-09.59.18:858][  0]LogUnrealEdMisc: Total Editor Startup Time, took 43.224
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: ================================================
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.08.28-09.59.18:858][  0]LogShaderCompilers: Display: ================================================
+[2022.08.28-09.59.19:932][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.08.28-09.59.21:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-09.59.21:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-09.59.21:097][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-09.59.21:101][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.28-09.59.22:649][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:650][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:715][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:715][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:736][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:736][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:817][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:817][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:903][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:903][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:925][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:925][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:943][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:943][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:969][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:969][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.22:994][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.22:994][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.23:047][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/UE/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.08.28-09.59.23:047][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.08.28-09.59.24:963][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.28-09.59.25:256][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.08.28-09.59.25:281][  0]LogSlate: Took 0.013823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.28-09.59.25:343][  0]LogSlate: Took 0.031552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.08.28-09.59.25:468][  0]LogViewport: Scene viewport resized to 3056x1230, mode Windowed.
+[2022.08.28-09.59.26:187][  0]LogSlate: Took 0.055758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.28-09.59.28:954][  0]LogStall: Startup...
+[2022.08.28-09.59.28:956][  0]LogStall: Startup complete.
+[2022.08.28-09.59.28:984][  0]LogLoad: (Engine Initialization) Total time: 53.35 seconds
+[2022.08.28-09.59.28:984][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.08.28-09.59.29:024][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': FbxScene_Casa_con_to_C /Game/Pruebas.Pruebas:PersistentLevel.FbxScene_Casa_con_to_C_UAID_309C23E73FDE811B01_1590889377
+[2022.08.28-09.59.29:024][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube_012': FbxScene_Casa_con_to_C /Game/Pruebas.Pruebas:PersistentLevel.FbxScene_Casa_con_to_C_UAID_309C23E73FDE811B01_1590889377
+[2022.08.28-09.59.29:024][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': FbxScene_Casa_con_to_C /Game/Pruebas.Pruebas:PersistentLevel.FbxScene_Casa_con_to_C_UAID_309C23E73FDEC21B01_1649050816
+[2022.08.28-09.59.29:024][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Cube_012': FbxScene_Casa_con_to_C /Game/Pruebas.Pruebas:PersistentLevel.FbxScene_Casa_con_to_C_UAID_309C23E73FDEC21B01_1649050816
+[2022.08.28-09.59.29:094][  0]LogAssetRegistry: Asset discovery search completed in 47.7941 seconds
+[2022.08.28-09.59.29:105][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.08.28-09.59.29:323][  0]LogContentStreaming: Texture pool size now 1000 MB
