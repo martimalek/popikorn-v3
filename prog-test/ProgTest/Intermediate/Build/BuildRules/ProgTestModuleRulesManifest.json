@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\dev\\Unreal\\popikorn-v3\\prog-test\\ProgTest\\Source\\ProgTest\\ProgTest.Build.cs",
-		"D:\\dev\\Unreal\\popikorn-v3\\prog-test\\ProgTest\\Source\\ProgTest.Target.cs",
-		"D:\\dev\\Unreal\\popikorn-v3\\prog-test\\ProgTest\\Source\\ProgTestEditor.Target.cs"
-	],
-	"EngineVersion": "5.0.2"
-}
