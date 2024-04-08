@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\dev\\Unreal\\popikorn-v3\\test\\pruebas2\\Source\\pruebas2\\pruebas2.Build.cs",
+		"D:\\dev\\Unreal\\popikorn-v3\\test\\pruebas2\\Source\\pruebas2.Target.cs",
+		"D:\\dev\\Unreal\\popikorn-v3\\test\\pruebas2\\Source\\pruebas2Editor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-pruebas2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\pruebas2Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2.init.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2Character.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2GameMode.gen.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2Character.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\pruebas2GameMode.cpp.obj"
+"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\Default.rc2.res"
+/OUT:"D:\dev\Unreal\popikorn-v3\test\pruebas2\Intermediate\Build\Win64\x64\UnrealEditor\Development\pruebas2\UnrealEditor-pruebas2.lib"
